@@ -67,7 +67,7 @@ export function Glossary() {
               <div className="bg-gray-100 dark:bg-gray-800 rounded-md p-4">
                 <h3 className="text-lg font-medium mb-2">Buff</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  A temporary enhancement to a character's stats or abilities.
+                  A temporary enhancement to a character&apos;s stats or abilities.
                 </p>
               </div>
             </div>

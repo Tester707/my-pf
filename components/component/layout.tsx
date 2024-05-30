@@ -135,7 +135,7 @@ export function Layout() {
               world-building, character development, and interactive storytelling.
             </p>
             <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              Evelyn's approach is rooted in a deep understanding of player psychology and a commitment to creating
+              Evelyn&apos;s approach is rooted in a deep understanding of player psychology and a commitment to creating
               scenarios that challenge and engage. She works closely with game developers to ensure her designs
               seamlessly integrate with the overall game mechanics and vision.
             </p>

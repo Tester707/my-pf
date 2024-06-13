@@ -1,13 +1,7 @@
 import Image from "next/image";
-import { Layout } from "@/components/component/layout";
 import { Glossary } from "@/components/component/glossary";
 import { Gallery } from "@/components/component/gallery";
 import Link from "next/link"
-
-export default function GlossaryPage()
-{
-  
-}
 
 export default function Home() {
   return (

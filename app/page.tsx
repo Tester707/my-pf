@@ -104,7 +104,7 @@ export default function Home() {
       <section className="flex items-center justify-center w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800" id="about">
         <div className="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">About 태연시</h2>
+            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">태연시 상세 내용</h2>
             <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
             상세 내용 추가 예정
             </p>
@@ -186,7 +186,6 @@ export default function Home() {
         </a>
       </div>
       <div className="group overflow-hidden rounded-lg">
-        <Link className="block" href="#">
           <img
             alt="Artwork 4"
             className="aspect-[4/3] w-full overflow-hidden object-cover transition-all duration-300 group-hover:scale-105"
@@ -198,10 +197,8 @@ export default function Home() {
             <h3 className="text-lg font-semibold"></h3>
             <p className="text-gray-500 dark:text-gray-400"></p>
           </div>
-        </Link>
       </div>
       <div className="group overflow-hidden rounded-lg">
-        <Link className="block" href="#">
           <img
             alt="Artwork 5"
             className="aspect-[4/3] w-full overflow-hidden object-cover transition-all duration-300 group-hover:scale-105"
@@ -213,10 +210,8 @@ export default function Home() {
             <h3 className="text-lg font-semibold"></h3>
             <p className="text-gray-500 dark:text-gray-400"></p>
           </div>
-        </Link>
       </div>
       <div className="group overflow-hidden rounded-lg">
-        <Link className="block" href="#">
           <img
             alt="Artwork 6"
             className="aspect-[4/3] w-full overflow-hidden object-cover transition-all duration-300 group-hover:scale-105"
@@ -228,10 +223,8 @@ export default function Home() {
             <h3 className="text-lg font-semibold"></h3>
             <p className="text-gray-500 dark:text-gray-400"></p>
           </div>
-        </Link>
       </div>
       <div className="group overflow-hidden rounded-lg">
-        <Link className="block" href="#">
           <img
             alt="Artwork 7"
             className="aspect-[4/3] w-full overflow-hidden object-cover transition-all duration-300 group-hover:scale-105"
@@ -243,10 +236,8 @@ export default function Home() {
             <h3 className="text-lg font-semibold"></h3>
             <p className="text-gray-500 dark:text-gray-400"></p>
           </div>
-        </Link>
       </div>
       <div className="group overflow-hidden rounded-lg">
-        <Link className="block" href="#">
           <img
             alt="Artwork 8"
             className="aspect-[4/3] w-full overflow-hidden object-cover transition-all duration-300 group-hover:scale-105"
@@ -258,7 +249,6 @@ export default function Home() {
             <h3 className="text-lg font-semibold"></h3>
             <p className="text-gray-500 dark:text-gray-400"></p>
           </div>
-        </Link>
       </div>
     </div>
   </section>

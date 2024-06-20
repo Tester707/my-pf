@@ -63,7 +63,7 @@ export default function Home() {
               <div className="space-y-2">
                 <h3 className="text-lg font-bold">UNCLEAR</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  플레이어는 '소란 이브라힘'이 되어 애너하임 그룹의 음모를 막고 뱅가드의 도시를 지켜야 합니다.
+                  플레이어는 &apos;소란 이브라힘&apos;이 되어 애너하임 그룹의 음모를 막고 뱅가드의 도시를 지켜야 합니다.
                 </p>
               </div>
             </div>

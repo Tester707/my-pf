@@ -91,10 +91,9 @@ export default function Home() {
           width="400"
         />
         <div className="flex flex-col space-y-2">
-          <h3 className="text-lg font-bold">Solar</h3>
+          <h3 className="text-lg font-bold">태연시</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400">
-            Embark on a fantastical journey through the enchanted forests and hidden realms of an elven
-            civilization, where players must navigate the delicate balance between tradition and progress.
+            상세 내용 추가 예정
           </p>
         </div>
       </div>
@@ -105,16 +104,9 @@ export default function Home() {
       <section className="flex items-center justify-center w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800" id="about">
         <div className="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">About Solar System</h2>
+            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">About 태연시</h2>
             <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              Evelyn Blackwood is a seasoned game scenario designer with a passion for crafting immersive,
-              narrative-driven experiences. With over a decade of industry experience, she has honed her skills in
-              world-building, character development, and interactive storytelling.
-            </p>
-            <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              Evelyn&apos;s approach is rooted in a deep understanding of player psychology and a commitment to creating
-              scenarios that challenge and engage. She works closely with game developers to ensure her designs
-              seamlessly integrate with the overall game mechanics and vision.
+            상세 내용 추가 예정
             </p>
           </div>
           <div className="flex space-x-4 lg:justify-end">

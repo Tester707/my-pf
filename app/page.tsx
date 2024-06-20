@@ -57,14 +57,13 @@ export default function Home() {
                 alt="Project 1"
                 className="mx-auto aspect-[4/3] overflow-hidden rounded-xl object-cover object-center group-hover:scale-105 transition-transform"
                 height="300"
-                src="/placeholder.svg"
+                src="/UNCLEAR.png"
                 width="400"
               />
               <div className="space-y-2">
-                <h3 className="text-lg font-bold">The Forgotten Kingdom</h3>
+                <h3 className="text-lg font-bold">UNCLEAR</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Immerse players in a forgotten medieval kingdom, where they must uncover ancient secrets and navigate
-                  a web of political intrigue.
+                  플레이어는 '소란 이브라힘'이 되어 애너하임 그룹의 음모를 막고 뱅가드의 도시를 지켜야 합니다.
                 </p>
               </div>
             </div>
@@ -73,14 +72,13 @@ export default function Home() {
                 alt="Project 2"
                 className="mx-auto aspect-[4/3] overflow-hidden rounded-xl object-cover object-center group-hover:scale-105 transition-transform"
                 height="300"
-                src="/placeholder.svg"
+                src="/Project Null.png"
                 width="400"
               />
               <div className="space-y-2">
-                <h3 className="text-lg font-bold">Cyberpunk Uprising</h3>
+                <h3 className="text-lg font-bold">Project : Null</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Explore a dystopian future where players must navigate the high-tech, neon-lit streets of a megacity
-                  and join a resistance movement against a corrupt corporate regime.
+                플레이어가 첨단 기술과 네온 불빛으로 빛나는 거대 도시의 거리를 탐색하고 부패한 정부의 어두운 진실을 파해치는 디스토피아적인 미래를 탐험하세요.
                 </p>
               </div>
             </div>
@@ -93,7 +91,7 @@ export default function Home() {
                 width="400"
               />
               <div className="space-y-2">
-                <h3 className="text-lg font-bold">Elven Odyssey</h3>
+                <h3 className="text-lg font-bold">Solar</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   Embark on a fantastical journey through the enchanted forests and hidden realms of an elven
                   civilization, where players must navigate the delicate balance between tradition and progress.
@@ -106,7 +104,7 @@ export default function Home() {
       <section className="flex items-center justify-center w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800" id="about">
         <div className="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">About Evelyn Blackwood</h2>
+            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">About Solar System</h2>
             <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
               Evelyn Blackwood is a seasoned game scenario designer with a passion for crafting immersive,
               narrative-driven experiences. With over a decade of industry experience, she has honed her skills in
@@ -134,27 +132,19 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-        <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 Evelyn Blackwood. All rights reserved.</p>
-        <nav className="sm:ml-auto flex gap-4 sm:gap-6">
-          <Link className="text-xs hover:underline underline-offset-4" href="#">
-            Terms of Service
-          </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="#">
-            Privacy
-          </Link>
-        </nav>
-      </footer>
+      
       <>
   <section className="w-full pt-12 md:pt-24 lg:pt-32">
     <div className="container mx-auto grid gap-12 lg:grid-cols-[1fr_400px] lg:gap-24">
-      <img
-        alt="b_rapi"
-        className="mx-auto aspect-[4/3] overflow-hidden rounded-xl object-cover object-center"
-        height="600"
-        src="/b_rapi.jpg"
-        width="800"
-      />
+      <a href="https://www.pixiv.net/artworks/110424164" target="_blank" rel="noopener noreferrer">
+        <img
+          alt="b_rapi"
+          className="mx-auto aspect-[4/3] overflow-hidden rounded-xl object-cover object-center"
+          height="600"
+          src="/b_rapi.jpg"
+          width="800"
+        />
+      </a>
       <div className="space-y-6">
         <div className="space-y-2">
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">바니걸 라피</h1>
@@ -169,49 +159,49 @@ export default function Home() {
   <section className="w-full py-12 md:py-24 lg:py-32">
     <div className="container mx-auto grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
       <div className="group overflow-hidden rounded-lg">
-        <Link className="block" href="#">
-          <img
-            alt="run_folkwang"
-            className="aspect-[4/3] w-full overflow-hidden object-cover transition-all duration-300 group-hover:scale-105"
-            height="300"
-            src="/r_folkwang.jpg"
-            width="400"
-          />
+        <a href="https://www.pixiv.net/artworks/112622753" target="_blank" rel="noopener noreferrer">
+            <img
+              alt="run_folkwang"
+              className="aspect-[4/3] w-full overflow-hidden object-cover transition-all duration-300 group-hover:scale-105"
+              height="300"
+              src="/r_folkwang.jpg"
+              width="400"
+            />
+        </a>
           <div className="p-4">
             <h3 className="text-lg font-semibold">달리는 폴크방</h3>
             <p className="text-gray-500 dark:text-gray-400">DrCrow</p>
           </div>
-        </Link>
       </div>
       <div className="group overflow-hidden rounded-lg">
-        <Link className="block" href="#">
+        <a href="https://www.pixiv.net/artworks/115024368" target="_blank" rel="noopener noreferrer">
           <img
-            alt="Artwork 2"
+            alt="D"
             className="aspect-[4/3] w-full overflow-hidden object-cover transition-all duration-300 group-hover:scale-105"
             height="300"
-            src="/placeholder.svg"
+            src="/D.jpg"
             width="400"
           />
           <div className="p-4">
-            <h3 className="text-lg font-semibold">Chromatic Harmony</h3>
-            <p className="text-gray-500 dark:text-gray-400">John Smith</p>
+            <h3 className="text-lg font-semibold">D</h3>
+            <p className="text-gray-500 dark:text-gray-400">DrCrow</p>
           </div>
-        </Link>
+        </a>
       </div>
       <div className="group overflow-hidden rounded-lg">
-        <Link className="block" href="#">
+        <a href="https://www.pixiv.net/artworks/118075496" target="_blank" rel="noopener noreferrer">
           <img
             alt="Artwork 3"
             className="aspect-[4/3] w-full overflow-hidden object-cover transition-all duration-300 group-hover:scale-105"
             height="300"
-            src="/placeholder.svg"
+            src="/venus.jpg"
             width="400"
           />
           <div className="p-4">
-            <h3 className="text-lg font-semibold">Vibrant Expressions</h3>
-            <p className="text-gray-500 dark:text-gray-400">Sarah Lee</p>
+            <h3 className="text-lg font-semibold">금성</h3>
+            <p className="text-gray-500 dark:text-gray-400">DrCrow</p>
           </div>
-        </Link>
+        </a>
       </div>
       <div className="group overflow-hidden rounded-lg">
         <Link className="block" href="#">
@@ -290,6 +280,17 @@ export default function Home() {
       </div>
     </div>
   </section>
+  <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
+        <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 Kwon Ohhyun. All rights reserved.</p>
+        <nav className="sm:ml-auto flex gap-4 sm:gap-6">
+          <Link className="text-xs hover:underline underline-offset-4" href="#">
+            Terms of Service
+          </Link>
+          <Link className="text-xs hover:underline underline-offset-4" href="#">
+            Privacy
+          </Link>
+        </nav>
+      </footer>
 </>
     </main>
     

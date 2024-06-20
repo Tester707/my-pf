@@ -32,10 +32,10 @@ export default function Home() {
               </div>
             </div>
             <img
-              alt="Evelyn Blackwood"
+              alt="Kwon Oh Hyun"
               className="mx-auto aspect-square overflow-hidden rounded-xl object-cover"
               height="550"
-              src="/placeholder.svg"
+              src="/Wanderer_above_the_Sea_of_Fog.jpeg"
               width="550"
             />
           </div>
@@ -145,6 +145,153 @@ export default function Home() {
           </Link>
         </nav>
       </footer>
+      <>
+  <section className="w-full pt-12 md:pt-24 lg:pt-32">
+    <div className="container mx-auto grid gap-12 lg:grid-cols-[1fr_400px] lg:gap-24">
+      <img
+        alt="b_rapi"
+        className="mx-auto aspect-[4/3] overflow-hidden rounded-xl object-cover object-center"
+        height="600"
+        src="/b_rapi.jpg"
+        width="800"
+      />
+      <div className="space-y-6">
+        <div className="space-y-2">
+          <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">바니걸 라피</h1>
+          <p className="text-gray-500 md:text-xl dark:text-gray-400">By DrCrow</p>
+        </div>
+        <p className="text-gray-500 md:text-xl dark:text-gray-400">
+        #勝利の女神:NIKKE #승리의 여신:니케 #NIKKE #メガニケ #Goddess of Victory: Nikke #ラピ(勝利の女神:NIKKE) #Rapi (NIKKE: The Goddess of Victory) #バニーガール #바니걸 #니케 #라피 #바니걸
+        </p>
+      </div>
+    </div>
+  </section>
+  <section className="w-full py-12 md:py-24 lg:py-32">
+    <div className="container mx-auto grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <div className="group overflow-hidden rounded-lg">
+        <Link className="block" href="#">
+          <img
+            alt="run_folkwang"
+            className="aspect-[4/3] w-full overflow-hidden object-cover transition-all duration-300 group-hover:scale-105"
+            height="300"
+            src="/r_folkwang.jpg"
+            width="400"
+          />
+          <div className="p-4">
+            <h3 className="text-lg font-semibold">달리는 폴크방</h3>
+            <p className="text-gray-500 dark:text-gray-400">DrCrow</p>
+          </div>
+        </Link>
+      </div>
+      <div className="group overflow-hidden rounded-lg">
+        <Link className="block" href="#">
+          <img
+            alt="Artwork 2"
+            className="aspect-[4/3] w-full overflow-hidden object-cover transition-all duration-300 group-hover:scale-105"
+            height="300"
+            src="/placeholder.svg"
+            width="400"
+          />
+          <div className="p-4">
+            <h3 className="text-lg font-semibold">Chromatic Harmony</h3>
+            <p className="text-gray-500 dark:text-gray-400">John Smith</p>
+          </div>
+        </Link>
+      </div>
+      <div className="group overflow-hidden rounded-lg">
+        <Link className="block" href="#">
+          <img
+            alt="Artwork 3"
+            className="aspect-[4/3] w-full overflow-hidden object-cover transition-all duration-300 group-hover:scale-105"
+            height="300"
+            src="/placeholder.svg"
+            width="400"
+          />
+          <div className="p-4">
+            <h3 className="text-lg font-semibold">Vibrant Expressions</h3>
+            <p className="text-gray-500 dark:text-gray-400">Sarah Lee</p>
+          </div>
+        </Link>
+      </div>
+      <div className="group overflow-hidden rounded-lg">
+        <Link className="block" href="#">
+          <img
+            alt="Artwork 4"
+            className="aspect-[4/3] w-full overflow-hidden object-cover transition-all duration-300 group-hover:scale-105"
+            height="300"
+            src="/placeholder.svg"
+            width="400"
+          />
+          <div className="p-4">
+            <h3 className="text-lg font-semibold">Dreamscape Odyssey</h3>
+            <p className="text-gray-500 dark:text-gray-400">Michael Chen</p>
+          </div>
+        </Link>
+      </div>
+      <div className="group overflow-hidden rounded-lg">
+        <Link className="block" href="#">
+          <img
+            alt="Artwork 5"
+            className="aspect-[4/3] w-full overflow-hidden object-cover transition-all duration-300 group-hover:scale-105"
+            height="300"
+            src="/placeholder.svg"
+            width="400"
+          />
+          <div className="p-4">
+            <h3 className="text-lg font-semibold">Celestial Whispers</h3>
+            <p className="text-gray-500 dark:text-gray-400">Emily Park</p>
+          </div>
+        </Link>
+      </div>
+      <div className="group overflow-hidden rounded-lg">
+        <Link className="block" href="#">
+          <img
+            alt="Artwork 6"
+            className="aspect-[4/3] w-full overflow-hidden object-cover transition-all duration-300 group-hover:scale-105"
+            height="300"
+            src="/placeholder.svg"
+            width="400"
+          />
+          <div className="p-4">
+            <h3 className="text-lg font-semibold">Enigmatic Landscapes</h3>
+            <p className="text-gray-500 dark:text-gray-400">David Lee</p>
+          </div>
+        </Link>
+      </div>
+      <div className="group overflow-hidden rounded-lg">
+        <Link className="block" href="#">
+          <img
+            alt="Artwork 7"
+            className="aspect-[4/3] w-full overflow-hidden object-cover transition-all duration-300 group-hover:scale-105"
+            height="300"
+            src="/placeholder.svg"
+            width="400"
+          />
+          <div className="p-4">
+            <h3 className="text-lg font-semibold">Ethereal Whispers</h3>
+            <p className="text-gray-500 dark:text-gray-400">Jessica Kim</p>
+          </div>
+        </Link>
+      </div>
+      <div className="group overflow-hidden rounded-lg">
+        <Link className="block" href="#">
+          <img
+            alt="Artwork 8"
+            className="aspect-[4/3] w-full overflow-hidden object-cover transition-all duration-300 group-hover:scale-105"
+            height="300"
+            src="/placeholder.svg"
+            width="400"
+          />
+          <div className="p-4">
+            <h3 className="text-lg font-semibold">Chromatic Fusion</h3>
+            <p className="text-gray-500 dark:text-gray-400">Alex Tan</p>
+          </div>
+        </Link>
+      </div>
+    </div>
+  </section>
+</>
     </main>
+    
   );
 }

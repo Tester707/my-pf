@@ -93,7 +93,7 @@ export default function Home() {
         <div className="flex flex-col space-y-2">
           <h3 className="text-lg font-bold">태연시</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400">
-            상세 내용 추가 예정
+            태양계를 컨셉으로 한 미소녀들, 당신의 선택이 운명을 결정합니다!
           </p>
         </div>
       </div>
@@ -104,9 +104,9 @@ export default function Home() {
       <section className="flex items-center justify-center w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800" id="about">
         <div className="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">태연시 상세 내용</h2>
-            <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-            상세 내용 추가 예정
+            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">UNCLEAR</h2>
+            <p className="max-w-[800px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            플레이어는 &apos;소란 이브라힘&apos;이 되어 애너하임 그룹의 음모를 막고 뱅가드의 도시를 지켜야 합니다.
             </p>
           </div>
           <div className="flex space-x-4 lg:justify-end">
@@ -249,6 +249,7 @@ export default function Home() {
             <h3 className="text-lg font-semibold"></h3>
             <p className="text-gray-500 dark:text-gray-400"></p>
           </div>
+
       </div>
     </div>
   </section>

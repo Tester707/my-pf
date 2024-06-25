@@ -5,7 +5,28 @@ import Link from "next/link"
 
 export default function Home() {
   return (
+    
     <main className="flex flex-col min-h-[100dvh]">
+       <header className="bg-zinc-900 text-white py-4 px-6 md:px-10 flex items-center justify-between sticky top-0 z-50">
+        <Link className="text-2xl font-bold" href="#">
+          권오현 포트폴리오
+        </Link>
+        <nav className="hidden md:flex items-center space-x-6">
+          <Link className="hover:underline" href="#home">
+            홈
+          </Link>
+          <Link className="hover:underline" href="#projects">
+            작업물
+          </Link>
+          <Link className="hover:underline" href="#about">
+            자기소개
+          </Link>
+          <Link className="hover:underline" href="#gallery">
+            그림 작업물
+          </Link>
+        </nav>
+
+      </header>
       <section className="flex items-center justify-center w-full py-12 md:py-24 lg:py-32 xl:py-48">
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
@@ -101,22 +122,22 @@ export default function Home() {
   </div>
 </section>
 
-      <section className="flex items-center justify-center w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800" id="about">
-        <div className="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
-          <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">UNCLEAR</h2>
-            <p className="max-w-[800px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-            플레이어는 &apos;소란 이브라힘&apos;이 되어 애너하임 그룹의 음모를 막고 뱅가드의 도시를 지켜야 합니다.
-            </p>
+<section className="bg-zinc-800 text-white py-20 px-6 md:px-10" id="about">
+          <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div className="space-y-6">
+              <h2 className="text-3xl md:text-4xl font-bold">자기소개</h2>
+              <p className="text-lg md:text-xl">
+                게임 시나리오 기획자를 목표로 공부하고 있는 권오현이라고 합니다.
+              </p>
+            </div>
+            <div className="relative h-[400px] md:h-[500px] overflow-hidden rounded-lg shadow-lg">
+              <img alt="Designer Portrait" className="object-cover" src="https://i.namu.wiki/i/M0j6sykCciGaZJ8yW0CMumUigNAFS8Z-dJA9h_GKYSmqqYSQyqJq8D8xSg3qAz2htlsPQfyHZZMmAbPV-Ml9UA.webp" />
+            </div>
           </div>
-          <div className="flex space-x-4 lg:justify-end">
-
-          </div>
-        </div>
-      </section>
+        </section>
       
       <>
-  <section className="w-full pt-12 md:pt-24 lg:pt-32">
+  <section className="w-full pt-12 md:pt-24 lg:pt-32" id="gallery">
     <div className="container mx-auto grid gap-12 lg:grid-cols-[1fr_400px] lg:gap-24">
       <a href="https://www.pixiv.net/artworks/110424164" target="_blank" rel="noopener noreferrer">
         <img
@@ -253,21 +274,12 @@ export default function Home() {
       </div>
     </div>
   </section>
+
+  
   <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
         <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 Kwon Ohhyun. All rights reserved.</p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
-        <Link
-              className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
-              href="#"
-            >
-              연락처
-            </Link>
-            <Link
-              className="inline-flex h-10 items-center justify-center rounded-md border border-gray-200 bg-white px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300 dark:border-gray-800"
-              href="#"
-            >
-              이력서 다운로드
-            </Link>
+        
         </nav>
       </footer>
 </>

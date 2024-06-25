@@ -2,6 +2,9 @@ import Image from "next/image";
 import { Glossary } from "@/components/component/glossary";
 import { Gallery } from "@/components/component/gallery";
 import Link from "next/link"
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
 
 export default function Home() {
   return (
@@ -274,7 +277,50 @@ export default function Home() {
       </div>
     </div>
   </section>
-
+  <section
+        className="bg-gray-100 dark:bg-gray-800 py-12 md:py-24"
+        id="contact"
+      >
+        <div className="container mx-auto px-6 md:px-12">
+          <h2 className="text-2xl md:text-3xl font-bold mb-8">문의</h2>
+          <form className="max-w-md mx-auto" >
+            <div className="mb-4">
+              <label
+                className="block text-gray-700 dark:text-gray-300 font-medium mb-2"
+                htmlFor="name"
+              >
+                이름
+              </label>
+              <Input id="name" placeholder="이름을 입력해주세요" type="text" />
+            </div>
+            <div className="mb-4">
+              <label
+                className="block text-gray-700 dark:text-gray-300 font-medium mb-2"
+                htmlFor="email"
+              >
+                이메일
+              </label>
+              <Input id="email" placeholder="이메일을 입력해주세요" type="email" />
+            </div>
+            <div className="mb-4">
+              <label
+                className="block text-gray-700 dark:text-gray-300 font-medium mb-2"
+                htmlFor="message"
+              >
+                문의
+              </label>
+              <Textarea
+                id="message"
+                placeholder="문의 내용을 입력해주세요"
+                rows={5}
+              />
+            </div>
+            <Button className="w-full cursor-x" type="button" variant="outline">
+              메시지 보내기
+            </Button>
+          </form>
+        </div>
+      </section>
   
   <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
         <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 Kwon Ohhyun. All rights reserved.</p>
